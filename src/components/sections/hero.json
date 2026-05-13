@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_sections_heroes",
+  "info": {
+    "displayName": "Hero"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "featurelmage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "groupCtas": {
+      "type": "component",
+      "component": "shared.cta",
+      "repeatable": true,
+      "min": 1,
+      "max": 2
+    }
+  },
+  "config": {}
+}

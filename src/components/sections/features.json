@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_sections_features",
+  "info": {
+    "displayName": "Features"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "items": {
+      "type": "component",
+      "component": "shared.card-feature",
+      "repeatable": true,
+      "min": 1,
+      "max": 6
+    }
+  },
+  "config": {}
+}
