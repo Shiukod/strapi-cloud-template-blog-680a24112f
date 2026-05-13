@@ -17,7 +17,8 @@
     "Content": {
       "type": "dynamiczone",
       "components": [
-        "sections.hero"
+        "sections.hero",
+        "sections.features"
       ]
     },
     "seo": {
