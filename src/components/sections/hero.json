@@ -11,7 +11,7 @@
     "description": {
       "type": "text"
     },
-    "featurelmage": {
+    "featureImage": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [

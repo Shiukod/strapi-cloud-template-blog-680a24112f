@@ -26,7 +26,7 @@ export interface SectionsHero extends Struct.ComponentSchema {
   };
   attributes: {
     description: Schema.Attribute.Text;
-    featurelmage: Schema.Attribute.Media<
+    featureImage: Schema.Attribute.Media<
       'images' | 'files' | 'videos' | 'audios'
     >;
     groupCtas: Schema.Attribute.Component<'shared.cta', true> &
